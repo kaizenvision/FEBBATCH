@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22cf1332-8cfe-4535-9919-40464ee9a07b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/baseclass/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pomclasses/AdminPagePom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pomclasses/LoginPagePom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utility/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utility/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/AdminPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/LoginPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/User_Details.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/hr.xlsx" afterDir="false" />
+    <list default="true" id="22cf1332-8cfe-4535-9919-40464ee9a07b" name="Changes" comment="FEB batch">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utility/ExtentReportUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/MyListner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utility/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testclasses/AdminPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/AdminPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testclasses/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/LoginPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +58,7 @@
       <recent name="D:\spring-Projets\Banking\untitled\src\test\resources\data" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AdminPageTest.addUserTest">
+  <component name="RunManager" selected="TestNG.D:/spring-Projets/Banking/untitled/testng.xml">
     <configuration name="AdminPageTest.addUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHrm" />
       <extension name="coverage">
@@ -83,7 +77,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/spring-Projets/Banking/untitled/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHrm" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHrm" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +96,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testclasses" />
-      <option name="MAIN_CLASS_NAME" value="com.testclasses.LoginPageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.testclasses.DemoTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHrm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testclasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testclasses" />
+      <option name="MAIN_CLASS_NAME" value="com.testclasses.DemoTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -118,49 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OrangeHrm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testclasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testclasses" />
-      <option name="MAIN_CLASS_NAME" value="com.testclasses.LoginPageTest" />
-      <option name="METHOD_NAME" value="LoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OrangeHrm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testclasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testclasses" />
-      <option name="MAIN_CLASS_NAME" value="com.testclasses.LoginPageTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/spring-Projets/Banking/untitled/testng.xml" />
         <item itemvalue="TestNG.AdminPageTest.addUserTest" />
         <item itemvalue="TestNG.LoginPageTest.AdminloginTest" />
-        <item itemvalue="TestNG.LoginPageTest.loginTest" />
-        <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="TestNG.LoginPageTest.LoginTest" />
+        <item itemvalue="TestNG.DemoTest" />
+        <item itemvalue="TestNG.DemoTest.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +159,30 @@
       <option name="presentableId" value="Default" />
       <updated>1716859607164</updated>
     </task>
+    <task id="LOCAL-00001" summary="FEB batch">
+      <option name="closed" value="true" />
+      <created>1718677477373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718677477373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FEB batch" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEB batch" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/utility/Utility.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
