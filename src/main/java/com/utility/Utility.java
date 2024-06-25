@@ -6,6 +6,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,6 +39,12 @@ public class Utility extends BaseClass {
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         String destinationPath = projectpath+"/screenshots/"+testName+".png";
         FileUtils.copyFile(screenshotFile,new File(destinationPath));
+    }
+
+    public void applyExplicitWait(WebElement ele){
+        WebDriverWait webDriverWait = new WebDriverWait(driver,Duration.ofSeconds(2));
+        webDriverWait.until(ExpectedConditions.visibilityOf(ele));
+        webDriverWait.pollingEvery(Duration.ofSeconds(1));
     }
 
 }

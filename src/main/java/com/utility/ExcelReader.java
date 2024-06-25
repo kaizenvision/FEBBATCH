@@ -55,21 +55,26 @@ public class ExcelReader extends BaseClass {
 
     }
 
-    public void getAllExcelData(Sheet sh){
+    public static Object[][] getAllExcelData(Sheet sh){
+        int rowcount = sh.getLastRowNum();
+        Object[][] excelData = new Object[rowcount][1];
 
         for (int row=0; row<sh.getLastRowNum();row++){
             Map<String,Object> rowData = new HashMap<>();
             int cellNum = sh.getRow(row).getLastCellNum();
             for(int cell=0; cell<cellNum;cell++){
-                if(sh.getRow(row).getCell(cellNum).getCellType().toString().equalsIgnoreCase("string"))
+                if(sh.getRow(row).getCell(cell).getCellType().toString().equalsIgnoreCase("string"))
                     rowData.put(sh.getRow(0).getCell(cell).getStringCellValue(),
-                            sh.getRow(row).getCell(cell).getStringCellValue());
+                            sh.getRow(row+1).getCell(cell).getStringCellValue());
 
                 else
                     rowData.put(sh.getRow(0).getCell(cell).getStringCellValue(),
-                            sh.getRow(row).getCell(cell).getNumericCellValue());
+                            sh.getRow(row+1).getCell(cell).getNumericCellValue());
             }
+            excelData[row][0] = rowData;
         }
+
+        return excelData;
     }
 
 }

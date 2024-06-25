@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22cf1332-8cfe-4535-9919-40464ee9a07b" name="Changes" comment="FEB batch">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utility/ExtentReportUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/MyListner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="22cf1332-8cfe-4535-9919-40464ee9a07b" name="Changes" comment="FEB batch extent report attach screenshot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utility/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utility/ExcelReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utility/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testclasses/AdminPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/AdminPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testclasses/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/DemoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/testclasses/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testclasses/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/hr.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/hr.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <recent name="D:\spring-Projets\Banking\untitled\src\test\resources\data" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/spring-Projets/Banking/untitled/testng.xml">
+  <component name="RunManager" selected="TestNG.LoginPageTest.AdminloginTest">
     <configuration name="AdminPageTest.addUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHrm" />
       <extension name="coverage">
@@ -142,9 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/spring-Projets/Banking/untitled/testng.xml" />
-        <item itemvalue="TestNG.AdminPageTest.addUserTest" />
         <item itemvalue="TestNG.LoginPageTest.AdminloginTest" />
+        <item itemvalue="TestNG.AdminPageTest.addUserTest" />
+        <item itemvalue="TestNG.D:/spring-Projets/Banking/untitled/testng.xml" />
         <item itemvalue="TestNG.DemoTest" />
         <item itemvalue="TestNG.DemoTest.test4" />
       </list>
@@ -167,20 +165,43 @@
       <option name="project" value="LOCAL" />
       <updated>1718677477373</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FEB batch extent report">
+      <option name="closed" value="true" />
+      <created>1718934282253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718934282253</updated>
+    </task>
+    <task id="LOCAL-00003" summary="FEB batch extent report attach screenshot">
+      <option name="closed" value="true" />
+      <created>1718935390890</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718935390890</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FEB batch" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEB batch" />
+    <MESSAGE value="FEB batch extent report" />
+    <MESSAGE value="FEB batch extent report attach screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEB batch extent report attach screenshot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/utility/Utility.java</url>
-          <line>36</line>
+          <line>38</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/utility/ExcelReader.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,8 +1,12 @@
 package com.testclasses;
 
+import com.baseclass.BaseClass;
+import com.utility.ExtentReportUtility;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class DemoTest {
+public class DemoTest  {
+
     @Test(groups = {"regression"}, priority = 4)
     public void test1(){
         System.out.println("in test 1");
